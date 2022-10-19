@@ -1,0 +1,11 @@
+https://www.geeksforgeeks.org/java-string-indexof/
+
+1.int indexOf() : This method returns the index within this string of the first occurrence of the specified character or -1, if the character does not occur.
+ 
+  String gfg = new String("Welcome to geeksforgeeks");
+ 
+        System.out.print("Found g first at position : ");
+ 
+        // Initial index of 'g' will print
+        // prints 11
+        System.out.println(gfg.indexOf('g'));
